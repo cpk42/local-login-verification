@@ -54,10 +54,3 @@ app.post('/post', function(req, res) {
 app.post('/send', (req, res) => {
     res.sendFile(path.join(__dirname, './public/'))
 })
-// fs.readFile(, (err, data) => {
-//     res.writeHead(200, {
-//         'Content-Type': 'text/html'
-//     });
-//     res.write(data);
-//     res.end();
-// })
