@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Welcome</title>
+    <base href="/">
+    <!-- <link rel="stylesheet" type="text/css" href="main.css"> -->
+    <link rel="shortcut icon" href="https://cdn.shopify.com/s/files/1/1449/5224/t/3/assets/favicon.png?14326321239197225589" type="image/png" />
+</head>
+<style>
+
+/* COLORS
+#ea8e71	(234,142,113) peach
+#cecbb4	(206,203,180) beige
+#8badaa	(139,173,170) aqua
+#5d8198	(93,129,152) blue
+#515365	(81,83,101) navy
+*/
+
+body {
+    font-family: Copperplate !important;
+    background-color: #8badaa;
+}
+
+#span {
+    background-color: #ea8e71
+}
+
+h4 {
+    text-align: center;
+}
+
+.input {
+    padding: 5px;
+    width: 50%;
+    border-radius: 5px;
+    border: white;
+    margin: auto;
+    display: block;
+}
+
+.form {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: #cecbb4;
+}
+
+.button {
+    background-color: #5d8198;
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
+.button:hover {
+    background-color: #8badaa;
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    margin: auto;
+}
+</style>
+
+<body>
+    <div id="span">
+        <form class="form" action="post">
+            <input class="input" type="text" name="login" value="">
+            <br/>
+            <input class="input" type="text" name="passwd" value="">
+            <br/>
+            <button class="button" type="submit" name="submit" value="OK">
+                    Submit
+                </button>
+        </form>
+    </div>
+</body>
+
+</html>

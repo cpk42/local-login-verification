@@ -1,0 +1,99 @@
+
+
+body {
+    font-family: Copperplate !important;
+    background-color: #8badaa;
+}
+
+/* COLORS
+#ea8e71	(234,142,113) peach
+#cecbb4	(206,203,180) beige
+#8badaa	(139,173,170) aqua
+#5d8198	(93,129,152) blue
+#515365	(81,83,101) navy
+*/
+
+/* MAIN TABLE */
+
+#mainTable {
+    display: table;
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.tableRow {
+    display: table-row;
+    width: 10%;
+}
+
+.tableCell {
+    display: table-cell;
+    width: 10%;
+    text-align: center;
+}
+
+.tableImg {
+    width: 90%;
+}
+
+.cellInfo {
+    height: 10%;
+    display: table-cell;
+}
+
+.tableInfo {
+    display: table-cell;
+    width: 10%;
+}
+
+.addToCart {
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 2%;
+    display: table-cell
+}
+
+/* NAVBAR */
+
+.topnav {
+    background-color: #515365;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #5d8198;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#navbar {
+    margin: 0;
+    padding: 0;
+    background-color: #515365;
+    width: 100%;
+}
+
+#title {
+     text-align: center;
+}
+
+/* * {
+          background: #000 !important;
+          color: #0f0 !important;
+          outline: solid #f00 1px !important;
+} */

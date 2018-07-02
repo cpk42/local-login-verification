@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="tr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Shopping</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="shortcut icon" href="https://cdn.shopify.com/s/files/1/1449/5224/t/3/assets/favicon.png?14326321239197225589" type="image/png" />
+</head>
+
+<style media="screen">
+
+
+body {
+    font-family: Copperplate !important;
+    background-color: #8badaa;
+}
+
+/* COLORS
+#ea8e71	(234,142,113) peach
+#cecbb4	(206,203,180) beige
+#8badaa	(139,173,170) aqua
+#5d8198	(93,129,152) blue
+#515365	(81,83,101) navy
+*/
+
+/* MAIN TABLE */
+
+#mainTable {
+    display: table;
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.tableRow {
+    display: table-row;
+    width: 10%;
+}
+
+.tableCell {
+    display: table-cell;
+    width: 10%;
+    text-align: center;
+}
+
+.tableImg {
+    width: 90%;
+}
+
+.cellInfo {
+    height: 10%;
+    display: table-cell;
+}
+
+.tableInfo {
+    display: table-cell;
+    width: 10%;
+}
+
+.addToCart {
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 2%;
+    display: table-cell
+}
+
+/* NAVBAR */
+
+.topnav {
+    background-color: #515365;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #5d8198;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#navbar {
+    margin: 0;
+    padding: 0;
+    background-color: #515365;
+    width: 100%;
+}
+
+#title {
+     text-align: center;
+}
+
+/* * {
+          background: #000 !important;
+          color: #0f0 !important;
+          outline: solid #f00 1px !important;
+} */
+
+</style>
+<body>
+    <div class="topnav">
+        <a href="/">Home</a>
+    </div>
+
+
+
+    <div id="mainTable">
+        <div class="tableRow">
+            <div class="tableCell">
+                <img class="tableImg" src="https://cdn.shopify.com/s/files/1/1449/5224/products/2018-2_Softgoods-2-Web20_large.jpg?v=1523048020" alt="sweatshirt">
+            </div>
+            <div class="tableCell">
+                <img class="tableImg" src="https://cdn.shopify.com/s/files/1/1449/5224/products/2018-2_Softgoods-2-Web17_large.jpg?v=1523048078" alt="sweatshirt">
+            </div>
+            <div class="tableCell">
+                <img class="tableImg" src="https://cdn.shopify.com/s/files/1/1449/5224/products/2018-2_Softgoods-Web20_large.jpg?v=1523044604" alt="sweatshirt">
+            </div>
+            <div class="tableCell">
+                <img class="tableImg" src="https://cdn.shopify.com/s/files/1/1449/5224/products/2018-2_Softgoods-Web26_large.jpg?v=1523046408" alt="sweatshirt">
+            </div>
+            <div class="tableCell">
+                <img class="tableImg" src="https://cdn.shopify.com/s/files/1/1449/5224/products/2018-1Decks25_large.jpg?v=1517356361" alt="sweatshirt">
+            </div>
+            <div class="tableCell">
+                <img class="tableImg" src="https://cdn.shopify.com/s/files/1/1449/5224/products/2018-2Softgoods23_large.jpg?v=1515781509" alt="sweatshirt">
+            </div>
+        </div>
+        <div class="tableRow">
+            <div class="tableInfo">
+                <p class="cellInfo">Cat Gets Bird - Pigment Slate</p>
+            </div>
+            <div class="tableInfo">
+                <p class="cellInfo">divanscend - White</p>
+            </div>
+            <div class="tableInfo">
+                <p class="cellInfo">Tali-Scrawl Pigment-Dyed - Black/White</p>
+            </div>
+            <div class="tableInfo">
+                <p class="cellInfo">Orbs Ghost 2.0 - White/Black</p>
+            </div>
+            <div class="tableInfo">
+                <p class="cellInfo">Maned Woof - Mint</p>
+            </div>
+            <div class="tableInfo">
+                <p class="cellInfo">Faces Hoodie - White</p>
+            </div>
+        </div>
+        <div class="tableRow">
+            <form class="addToCart" action="/send">
+                <input name="quantity" type="number" min="1" max="10" value="0">
+                <button class="button" type="submit" name="submit" value="OK">
+                        Submit
+                    </button>
+            </form>
+            <form class="addToCart" action="/send">
+                <input name="quantity" type="number" min="1" max="10" value="0">
+                <button class="button" type="submit" name="submit" value="OK">
+                        Submit
+                    </button>
+            </form>
+            <form class="addToCart" action="/send">
+                <input name="quantity" type="number" min="1" max="10" value="0">
+                <button class="button" type="submit" name="submit" value="OK">
+                        Submit
+                    </button>
+            </form>
+            <form class="addToCart" action="/send">
+                <input name="quantity" type="number" min="1" max="10" value="0">
+                <button class="button" type="submit" name="submit" value="OK">
+                        Submit
+                    </button>
+            </form>
+            <form class="addToCart" action="/send">
+                <input name="quantity" type="number" min="1" max="10" value="0">
+                <button class="button" type="submit" name="submit" value="OK">
+                        Submit
+                    </button>
+            </form>
+            <form class="addToCart" action="/send">
+                <input name="quantity" type="number" min="1" max="10" value="0">
+                <button class="button" type="submit" name="submit" value="OK">
+                        Submit
+                    </button>
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
