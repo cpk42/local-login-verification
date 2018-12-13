@@ -81,14 +81,15 @@ module.exports = {
         data = db.getAll().entries
         if (passwd && login) {
             for (var name in data) {
-                if (data[name].login != serialize.serialize(login) && data[name].passwd != encrypt(passwd))
+                if (data[name].login == serialize.serialize(login) && data[name].passwd == encrypt(passwd)) {
+                    return true;
+                } else {
+                    console.log('OK');
                     continue;
-                else {
-                    console.log("Error");
-                    return false
                 }
             }
         }
-        return true
+        console.log('ERROR');
+        return false
     }
 }
